@@ -14,7 +14,7 @@ FROM [codenvy/ubuntu_android](https://hub.docker.com/r/codenvy/ubuntu_android/)
 
 1. Project build is started automatically when a workspace starts. Click the Preview URL, right click on the gray screen to call a context menu and launch the Emulator. It may take a while.
 ![Alt text](https://raw.githubusercontent.com/ddementieva/android-images/master/images/context-menu.png "Context menu")
-2.  Once the Emulator is started, right click on the gray screen and start the Terminal. In the Terminal run the following command to install apk: `adb install /projects/mobile-android-hello-world/target/mobile-android-java-basic.apk`.           
+2.  Once the Emulator is started, right click on the gray screen and start the Terminal. In the Terminal run the following command to install apk: `adb install electric-charging-point-share/target/mobile-android-java-basic.apk`          
 ![Alt text](https://raw.githubusercontent.com/ddementieva/android-images/master/images/adb-install-hello-world.png "adb install hello world")
 3. Find your application in the Emulator's Menu.
 ![Alt text](https://raw.githubusercontent.com/ddementieva/android-images/master/images/codenvy-example.png "Codenvy Example")
