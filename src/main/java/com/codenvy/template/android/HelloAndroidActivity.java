@@ -1,5 +1,6 @@
 package com.codenvy.template.android;
-
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -17,6 +18,10 @@ public class HelloAndroidActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        FirebaseDatabase database = FirebaseDatabase.getInstance();
+//        DatabaseReference myRef = database.getReference("company");
+//        final TextView textViewToChange = (TextView) findViewById(R.id.text_view);
+//        textViewToChange.setText((String)myRef.toString());
         setContentView(R.layout.activity_main);
     }
 

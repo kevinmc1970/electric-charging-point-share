@@ -1,0 +1,43 @@
+
+{
+  "project_info": {
+    "project_number": "885881827527",
+    "firebase_url": "https://mcintechelectricshare.firebaseio.com",
+    "project_id": "mcintechelectricshare",
+    "storage_bucket": "mcintechelectricshare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885881827527:android:b8026fb10e6d1062",
+        "android_client_info": {
+          "package_name": "com.mcintech.electricshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885881827527-ck51rubcpqa31v0vd0vmnn99tcr05jdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDajO7Si2JkAlEx17evx1ITPoJbN0JReKc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
